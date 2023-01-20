@@ -1,7 +1,7 @@
 .mainContainer {
   position: relative;
   height: 800px;
-  width: auto;
+  width: 390px;
   margin: auto;
   background: #ffffff;
   z-index: 10;
@@ -64,9 +64,10 @@
   justify-content: space-around;
   flex-direction: column;
   background: #242942;
-  width: 100%;
+  width: 100% !important;
   height: auto;
-  margin: 50px auto;
+  margin: 60px 0px;
+  padding-top: 20px;
   z-index: 10;
 }
 .secondaryText {
@@ -121,7 +122,7 @@
   justify-content: space-around;
   background: #f68713;
   width: 100px;
-  height: 24px;
+  height: 28px;
   border-radius: 20px;
   margin: 20px auto;
   font-family: "Barlow Condensed";
