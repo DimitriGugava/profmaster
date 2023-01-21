@@ -6,12 +6,13 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-around;
 }
 
 .contactInfo {
   width: 150px;
   height: 25px;
-  margin: 0px 20px;
+  margin: 0px 0px;
   font-family: "Barlow Condensed";
   font-size: 16px;
   font-weight: 400;

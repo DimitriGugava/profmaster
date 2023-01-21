@@ -136,3 +136,70 @@
 .seeMore:hover {
   cursor: pointer;
 }
+
+.moreSeeMore {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #f68713;
+  width: 160px;
+  height: 28px;
+  border-radius: 20px;
+  margin: 20px auto;
+  font-family: "Barlow Condensed";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: white;
+}
+.moreSeeMore:hover {
+  cursor: pointer;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  height: 233px;
+  width: 311px;
+  margin: 50px auto;
+  background: #ffffff;
+  box-shadow: 0px 5px 10px 0px #00000026;
+  border-radius: 3px;
+}
+
+.optionListWrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px auto;
+  height: 35px;
+  width: 300px;
+  background: #f68713;
+  border-radius: 10px;
+}
+.optionListWrap:hover {
+  cursor: pointer;
+  background: #e9a55c;
+  height: 34px;
+  width: 290px;
+}
+.optionList {
+  height: 22px;
+  width: 200px;
+  font-family: "Barlow Condensed";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 1.2000000476837158px;
+  text-align: center;
+  color: #ffffff;
+}
+.optionList:hover {
+  cursor: pointer;
+  font-size: 20px;
+}
