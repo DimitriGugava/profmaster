@@ -12,7 +12,8 @@
   position: absolute;
   height: 425px;
   width: 319px;
-  margin-left: 180px;
+  margin-left: 170px;
+
   margin-top: -2px;
   z-index: -1;
   background: #f68713;
@@ -22,8 +23,8 @@
 .backImage {
   position: absolute;
   margin: 500px auto !important;
-  width: 390px;
-  height: 180px;
+  width: 100%;
+  height: 165px;
   z-index: -10;
 }
 .companyLogo {

@@ -6,7 +6,6 @@ import helmet from "../../icons/helmet.jpg";
 const Prices = () => {
   return (
     <div className="pricesContainer">
-      {" "}
       <img src={logo} className="PricesCompanyLogo" alt="profmaster logo" />
       <Link style={{ textDecoration: "none" }} to="/">
         <div className="pricesGoBackToMain">დაბრუნდი მთავარზე</div>

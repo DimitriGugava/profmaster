@@ -1,6 +1,7 @@
 .pricesContainer {
   width: 100%;
   height: 800px;
+  margin: auto !important;
   background: #ffffff;
   overflow: hidden;
 }
@@ -34,7 +35,7 @@
   flex-direction: column;
   width: 400px;
   height: 300px;
-  margin-top: 0px;
+  margin: 0px auto;
   background-color: #f68713;
   color: white;
   border-radius: 3px;
@@ -59,7 +60,7 @@
   line-height: 40px;
   letter-spacing: 0px;
   text-align: left;
-  color: #242942;
+  color: white;
 }
 .priceNormalText {
   height: 25px;
@@ -71,11 +72,11 @@
   line-height: 0px;
   letter-spacing: 0px;
   text-align: left;
-  color: #242942;
+  color: white;
 }
 .priceImage {
   position: absolute;
-  width: 100%;
+  width: 400px;
   height: 300px;
   opacity: 0.2;
 }
