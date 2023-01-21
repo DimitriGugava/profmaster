@@ -88,6 +88,25 @@
   background-color: #f68713;
 }
 
+.goBackToMain {
+  width: 140px;
+  height: 25px;
+  margin-left: 15px;
+  border-radius: 50px;
+  background-color: #f68713;
+  font-family: "Barlow Condensed";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgb(251, 251, 251);
+}
+.goBackToMain:hover {
+  cursor: pointer;
+  background-color: #fb9324;
+}
+
 .projectListCont {
   border-left: 5px solid #f68713;
   border-bottom: 5px solid #f68713;

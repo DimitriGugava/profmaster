@@ -55,9 +55,11 @@ const Main = () => {
                 <p className="optionList">ფასები</p>
               </div>
             </Link>
-            <div className="optionListWrap">
-              <p className="optionList">კონტაქტი</p>
-            </div>
+            <Link style={{ textDecoration: "none" }} to="/contact">
+              <div className="optionListWrap">
+                <p className="optionList">კონტაქტი</p>
+              </div>
+            </Link>
           </div>
         </>
       )}

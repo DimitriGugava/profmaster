@@ -15,7 +15,7 @@ const Projects = () => {
   return (
     <div className="projectMainContainer">
       <div className="projectsBackEffect"> </div>
-      <Link style={{ textDecoration: "none" }} to="/main">
+      <Link style={{ textDecoration: "none" }} to="/">
         <img src={logo} className="companyLogo" alt="profmaster logo" />
       </Link>
       {!showVideo && (
@@ -46,7 +46,9 @@ const Projects = () => {
         </div>
       )}
       <div className="line"></div>
-
+      <Link style={{ textDecoration: "none" }} to="/">
+        <div className="goBackToMain">დაბრუნდი მთავარზე</div>{" "}
+      </Link>
       <div className="projectListCont">
         <div className="projectBox">
           <h2 className="costumerTitle">Coca-Cola</h2>
