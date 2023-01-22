@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <>
       <div className="bottomContainer">
-        <p className="contactInfo">ტელ: +995 598 98 43 58</p>
+        <p className="contactInfo">ტელ: +995 551 164 222 </p>
         <div className="socialNets">
           <a
             href="https://www.facebook.com/profile.php?id=100088084497322"

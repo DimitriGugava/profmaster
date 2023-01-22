@@ -8,6 +8,7 @@ import Projects from "./Projects/Projects";
 import { Link } from "react-router-dom";
 import { Route, Routes, Navigate } from "react-router-dom";
 import Contact from "../Contact/Contact";
+import backgrounddesktop from "../icons/backgrounddesktop.jpg";
 const Main = () => {
   const [moreInfo, setMoreInfo] = useState(true);
   const [menu, setMenu] = useState(true);
@@ -25,7 +26,7 @@ const Main = () => {
   return (
     <div className="mainContainer">
       <div className="backEffect"> </div>
-      {moreInfo && <img src={planImage} className="backImage" />}
+      {moreInfo && <img src={backgrounddesktop} className="backImage" />}
       <img src={logo} className="companyLogo" alt="profmaster logo" />
       {menu ? (
         <img
@@ -63,6 +64,19 @@ const Main = () => {
           </div>
         </>
       )}
+      <div className="desktopOptionsBox">
+        <Link style={{ textDecoration: "none" }} to="/projects">
+          <p className="optionListDesktop" onClick={checkProjects}>
+            ჩვენი პროექტები
+          </p>
+        </Link>
+        <Link style={{ textDecoration: "none" }} to="/prices">
+          <p className="optionListDesktop">ფასები</p>
+        </Link>
+        <Link style={{ textDecoration: "none" }} to="/contact">
+          <p className="optionListDesktop">კონტაქტი</p>
+        </Link>
+      </div>
       {menu ? (
         <>
           {moreInfo ? (

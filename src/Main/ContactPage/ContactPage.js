@@ -15,7 +15,10 @@ const ContactPage = () => {
         <div className="contactGoBackToMain">დაბრუნდი მთავარზე</div>
       </Link>
       <div className="contactBox">
-        <p className="contactPageText">ტელეფონი: +995 598 98 43 58</p>
+        <p className="contactPageText">
+          ტელეფონი: +995 551 164 222 - ალექსანდრე
+        </p>
+        <p className="contactPageText">ტელეფონი: +995 598 98 43 58 - გიორგი </p>
         <p className="contactPageText">მეილი: giorgi.oniani.1@gmail.com</p>
         <p className="contactPageText">
           ასევე დაგვიკავშირდით ჩვენი სოც-ქსელების მეშვეობით:

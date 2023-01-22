@@ -204,3 +204,191 @@
   cursor: pointer;
   font-size: 20px;
 }
+.desktopOptionsBox {
+  display: none;
+}
+@media only screen and (min-width: 960px) {
+  .mainContainer {
+    position: relative;
+    height: 800px;
+    width: auto;
+    margin: auto;
+    background: #ffffff;
+    z-index: 10;
+    overflow: hidden;
+  }
+
+  .backEffect {
+    position: absolute;
+    height: 427px;
+    width: 705px;
+    left: 735px;
+    margin-top: -2px;
+    z-index: -1;
+    background: #f68713;
+
+    border-radius: 0px 0px 0px 60px;
+  }
+  .backImage {
+    position: absolute;
+    margin: 300px auto !important;
+    width: 100%;
+    height: 500px;
+    z-index: -10;
+  }
+  .companyLogo {
+    position: absolute;
+    width: 200px;
+    height: 220px;
+    margin: -30px 30px;
+    z-index: -1;
+  }
+  .menuScroll {
+    display: none;
+  }
+
+  .desktopOptionsBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 465px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 1000px;
+    gap: 5px;
+  }
+  .optionListDesktop {
+    height: 22px;
+    width: 150px;
+    font-family: "Barlow Condensed";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 1.2000000476837158px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .optionListDesktop:hover {
+    cursor: pointer;
+    color: #d9d1d1;
+  }
+  .ContentPart {
+    width: auto;
+    height: auto;
+    margin: 50px auto !important;
+  }
+  .headerText {
+    height: 80px;
+    width: 500px;
+    margin: auto;
+    font-family: "Barlow Condensed";
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #242942;
+  }
+  .textBack {
+    display: flex;
+    align-items: flex-start !important;
+    justify-content: space-around;
+    flex-direction: column;
+    background: #242942;
+    width: 100% !important;
+    height: auto;
+    margin: 60px 0px;
+    padding-top: 20px;
+    z-index: 10;
+  }
+  .secondaryText {
+    height: 52px;
+    width: 700px;
+    margin: auto;
+    font-family: "Barlow Condensed";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: white;
+  }
+  .moreContentPart {
+    width: auto;
+    height: auto;
+    margin: 70px auto !important;
+    display: flex;
+    flex-direction: column;
+  }
+  .moreContentPart:hover {
+    cursor: pointer;
+  }
+  .moreTextBack {
+    display: flex;
+    align-items: flex-start !important;
+    justify-content: space-around;
+    flex-direction: column;
+    background: #242942;
+    width: 100%;
+    height: auto;
+    margin: 5px auto;
+    z-index: 10;
+  }
+  .moreTextBack:hover {
+    background: #404974;
+  }
+  .moreText {
+    height: auto !important;
+    width: 800px;
+    margin-left: -40px;
+    font-family: "Barlow Condensed";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: white;
+  }
+
+  .seeMore {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #f68713;
+    width: 130px;
+    height: 35px;
+    border-radius: 20px;
+    margin: 20px auto;
+    font-family: "Barlow Condensed";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: white;
+  }
+  .seeMore:hover {
+    cursor: pointer;
+  }
+
+  .moreSeeMore {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #f68713;
+    width: 180px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 20px auto;
+    font-family: "Barlow Condensed";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: white;
+  }
+  .moreSeeMore:hover {
+    cursor: pointer;
+  }
+}

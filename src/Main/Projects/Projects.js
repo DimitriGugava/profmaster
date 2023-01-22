@@ -36,7 +36,7 @@ const Projects = () => {
           <div className="AboutplayerBox">
             <iframe
               className="Aboutplayer"
-              src="https://www.youtube.com/embed/MeK46abkwNI"
+              src="https://www.youtube.com/embed/1CUsKuwqRx8"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
