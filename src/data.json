@@ -1,0 +1,41 @@
+[
+  {
+    "title": "დომინო",
+    "photos": {
+      "before": {
+        "large": "./assets/dominobefore.jpg",
+        "large2": "./assets/dominobefore.jpg"
+      },
+      "after": {
+        "large": "./assets/dominobefore2.jpg",
+        "large2": "./assets/dominobefore2.jpg"
+      }
+    },
+    "year": 2022,
+    "whatwedid": "მოხდა ქვაბის მონტაჟი",
+    "whatwedid2": "დაიკიდა 2 მეტრის სიმაღლის რკინის რადიატორები,დაერთდა როზეტები",
+    "whatwedid3": "",
+    "whatwedid4": "",
+    "address": "თბილისი, დიღმის მასივი, ბელიაშვილი",
+    "project": true
+  },
+  {
+    "title": "გრანდ ელექტრონიქსის მაღაზია",
+    "photos": {
+      "before": {
+        "large": "./assets/dominobefore3.jpg",
+        "large2": "./assets/dominobefore3.jpg"
+      },
+      "after": {
+        "large": "./assets/dominobefore4.jpg",
+        "large2": "./assets/dominobefore4.jpg"
+      }
+    },
+    "year": 2022,
+    "whatwedid": "მოეწყო საკაბელო ხონჩა",
+    "whatwedid2": "დაიკიდა 43 ც განათება",
+    "whatwedid3": "",
+    "whatwedid4": "",
+    "address": "თბილისი, ვაკე, ფალიაშვილი"
+  }
+]

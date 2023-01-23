@@ -7,11 +7,16 @@ import after from "../../icons/after.jpg";
 import checkvideo from "../../icons/checkvideo.svg";
 import { useState } from "react";
 import close from "../../icons/close.svg";
+import data from "../../data.json";
 const Projects = () => {
   const [showVideo, setShowVideo] = useState(false);
   const watchVideo = () => {
     return setShowVideo(!showVideo);
   };
+  data.filter((info) => {
+    return info.project;
+  });
+  console.log(data);
   return (
     <div className="projectMainContainer">
       <div className="projectsBackEffect"> </div>
@@ -27,7 +32,7 @@ const Projects = () => {
           />
           <div className="watchVideo" onClick={watchVideo}>
             იხილეთ ჩვენი ვიდეო რგოლი
-          </div>{" "}
+          </div>
         </>
       )}
       {showVideo && (
@@ -50,58 +55,22 @@ const Projects = () => {
         <div className="goBackToMain">დაბრუნდი მთავარზე</div>{" "}
       </Link>
       <div className="projectListCont">
-        <div className="projectBox">
-          <h2 className="costumerTitle">Coca-Cola</h2>
-          <div className="box">
-            <img className="before" src={before} />
-            <img className="after" src={after} />
+        {data.map((data) => (
+          <div className="projectBox">
+            <h2 className="costumerTitle">{data.title}</h2>
+            <div className="box">
+              <img className="before" src={data?.photos?.before.large} />
+              <img className="after" src={data?.photos?.after.large} />
+            </div>
+            <div className="customerInfo">
+              <a className="infoText">{data.address}</a>
+              <ul>
+                <li className="infoText">{data.whatwedid}</li>
+                <li className="infoText">{data.whatwedid2}</li>
+              </ul>
+            </div>
           </div>
-          <div className="customerInfo">
-            <a className="infoText">თბილისი, დიდი დიღომი</a>
-            <ul>
-              <li className="infoText">რა გაკეთდა</li>
-              <li className="infoText">რა გაკეთდა</li>
-              <li className="infoText">რა გაკეთდა</li>
-              <li className="infoText">რა გაკეთდა</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div className="projectListCont">
-        <div className="projectBox">
-          <h2 className="costumerTitle">Coca-Cola</h2>
-          <div className="box">
-            <img className="before" src={before} />
-            <img className="after" src={after} />
-          </div>
-          <div className="customerInfo">
-            <a className="infoText">თბილისი, დიდი დიღომი</a>
-            <ul>
-              <li className="infoText">რა გაკეთდა</li>
-              <li className="infoText">რა გაკეთდა</li>
-              <li className="infoText">რა გაკეთდა</li>
-              <li className="infoText">რა გაკეთდა</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div className="projectListCont">
-        <div className="projectBox">
-          <h2 className="costumerTitle">Coca-Cola</h2>
-          <div className="box">
-            <img className="before" src={before} />
-            <img className="after" src={after} />
-          </div>
-          <div className="customerInfo">
-            <a className="infoText">თბილისი, დიდი დიღომი</a>
-            <ul>
-              <li className="infoText">რა გაკეთდა</li>
-              <li className="infoText">რა გაკეთდა</li>
-              <li className="infoText">რა გაკეთდა</li>
-              <li className="infoText">რა გაკეთდა</li>
-            </ul>
-          </div>
-        </div>
+        ))}
       </div>
     </div>
   );
